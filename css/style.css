@@ -19,6 +19,8 @@ a:hover {
   color: #f7ca44;
 }
 
+
+
 a.link-underline {
   text-decoration: underline;
 }
@@ -44,6 +46,11 @@ h5,
 
 .text-primary {
   color: #f7ca44 !important;
+}
+.lastdonatebutton{
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
 
 .ftco-navbar-light {
@@ -106,7 +113,7 @@ h5,
   bottom: 10px;
   left: 0;
   width: 2px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(150, 5, 5, 0.05);
 }
 
 @media (max-width: 991.98px) {
@@ -145,6 +152,52 @@ h5,
   position: absolute;
   bottom: 20px;
 }
+a.mybutton:hover {
+  background-color: #195a28 !important; 
+}
+
+
+@keyframes slowBlink {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0.6;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+#slider {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.slides-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 auto; 
+  margin: 0; 
+  width:350px;
+  
+
+}
+
+.slide img {
+  width: 200px; 
+  height: auto;
+  border-radius: 10px;
+  
+}
+.person-donate {
+  width:400px;
+}
+
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-nav>.nav-item.active>a:before {
@@ -355,6 +408,7 @@ h5,
 .btn:hover,
 .btn:active,
 .btn:focus {
+ 
   -webkit-box-shadow: none;
   box-shadow: none;
 }
