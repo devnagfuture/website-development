@@ -519,10 +519,13 @@ mark {
    height:auto
 }
 .program-img {
-    max-width:100%;
-   height:auto;
-   border-radius:60px;
+    width: 445px;
+    height: 308px;
+    object-fit: cover;
+    border-radius: 60px;
 }
+
+
 
    
 
