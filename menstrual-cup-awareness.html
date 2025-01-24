@@ -29,14 +29,14 @@
 
 
     <div id="navbar-container"></div>
-<script>
-  fetch('navbar.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('navbar-container').innerHTML = data;
-    })
-    .catch(error => console.error('Error loading navbar:', error));
-</script>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading navbar:', error));
+    </script>
     <!-- END nav -->
 
     <div class="block-31" style="position: relative;">
@@ -54,7 +54,7 @@
                                         class="play-icon-wrap align-self-center mr-4"><span
                                             class="ion-ios-play"></span></span> <span class="align-self-center">Know
                                         More</span></a>
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>
@@ -219,14 +219,14 @@
 
     <div id="footer-container"></div>
     <script>
-      fetch('footer.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('footer-container').innerHTML = data;
-        })
-        .catch(error => console.error('Error loading footer:', error));
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
     </script>
-    
+
 
     <!-- loader -->
     <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
